@@ -1,0 +1,21 @@
+{
+  "name": "circle-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/circle-ci.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "ci-approval": "./bin/circle-ci.js",
+    "ci-status": "./bin/ci-status.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "colors": "^1.4.0",
+    "json-colorizer": "^2.2.2",
+    "yargs": "^16.0.3"
+  }
+}
